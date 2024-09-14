@@ -1,0 +1,24 @@
+# Ignore Git files
+.git
+.gitignore
+
+# Ignore Docker files
+Dockerfile
+.dockerignore
+
+# Ignore editor files
+.vscode
+.idea
+
+# Ignore test files
+*_test.go
+
+# Ignore build artifacts
+/main
+
+# Ignore any local configuration or sensitive files
+*.env
+*.local.yaml
+
+# Ignore any logs
+*.log
